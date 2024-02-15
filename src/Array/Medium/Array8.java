@@ -7,7 +7,7 @@ package Array.Medium;
 public class Array8 {
 
     public static void main(String[] args) {
-        Integer[] arr = {2,1,5,4,3,0,0};
+        Integer[] arr = {1,3,2};
         printArray(arr);
         int n = arr.length;
         Integer[] arrNxt = findNextPermutation(arr, n);
@@ -17,7 +17,7 @@ public class Array8 {
     public static Integer[] findNextPermutation(Integer[] nums, int n) {
 
         int breakPoint = findBreakPoint(nums, n);
-
+        System.out.println(breakPoint+": Break Point");
         if(breakPoint==-1){
             // reverse whole array and return
             // Collections API can be used to reverse the array, if array is considered as List
