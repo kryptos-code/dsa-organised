@@ -17,6 +17,7 @@ public class SelectionSort {
             }
 
             swapValues(i, min, arr);
+            printArray(arr);
         }
     }
 

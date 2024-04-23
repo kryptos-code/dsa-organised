@@ -2,6 +2,10 @@ package Array.Medium;
 
 import java.util.*;
 
+/*
+*   Q. Given an array, print all the elements which are leaders.
+*      A Leader is an element that is greater than all of the elements on its right side in the array
+* */
 public class Array9 {
     public static void main(String[] args) {
         Integer[] arr = {1,3,2};

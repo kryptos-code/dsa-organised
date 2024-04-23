@@ -5,6 +5,7 @@ package Array.Hard;
 *       V2. Given the row number n. Print the n-th row of Pascal’s triangle.
 *       V3. Given the number of rows n. Print the first n rows of Pascal’s triangle
 * */
+
 public class Array1 {
     public static void main(String[] args) {
 

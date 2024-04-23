@@ -17,6 +17,7 @@ public class BubbleSort {
                     didSwap = 1;
                 }
             }
+            printArray(arr);
             if(didSwap == 0) break;
         }
     }
